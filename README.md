@@ -16,6 +16,6 @@ This repository contains a haml version of zachstronaut's code.
 The Retry-After header is set for 10:00 AM GMT. So, you will need to remove this app and replace it with your original website by the follow times according to your timezone:
 
 * 5:00AM - EST
-* 4:00 - CST
-* 3:00 - MST
+* 4:00AM - CST
+* 3:00AM - MST
 * 2:00AM - CST
