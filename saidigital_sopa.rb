@@ -16,12 +16,6 @@ error do
 end
 
 #Send 503 status, but render index.
-get '/' do
+get '/*' do
   haml :index, :format => :html5
 end
-
-#Everything else, just 503
-get '/*' do
-end
-
-
